@@ -60,12 +60,23 @@ p{
     float: left;
     padding: 10px;
 }
-a:hover{
-    color: rgb(148, 185, 45);
+a{
+    padding:5px;
 }
+/*link não visitado*/
+a:link{
+    color: black;
+}
+/* Link visitado*/
 a:visited{
     color: #2606f8 ;
 }
+/*Quando o mouse passa por cima*/
+a:hover{
+    color: rgb(185, 45, 45);
+    background-color: rgb(11, 53, 39);
+}
+/*Link ativo/selecionado*/
 a:active{
     color: red;
 }
