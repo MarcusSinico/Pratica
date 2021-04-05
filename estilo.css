@@ -8,75 +8,81 @@ body{
     margin: 50px auto;
     position: relative;
     background: white;
-    clear: both;
 }
-h1{
-   text-align: center;
-}
-h2{
-    padding:5px;
-}
-h3{
-    text-align: center;
-}
-.right{
-    text-align: right;
-    margin: 5px;
-}
-.img0{
-    width:500px;
-    margin: auto 250px;
-}
-.img{
-    margin: auto 100px;
-}
-.img2{
-    width: 300px;
-    float: right;
-}
-.img3{
-    width: 350px;
-    float: left;
-}
-.img4{
-    width: 400px;
-    float: right;
-}
-.img5{
-    width: 600px;
-    clear: both;
-    float: left;
-    padding: 10px;
-}
-.img6{
-    width: 800px;
-}
-p{
-    font-family: Cambria, Georgia, serif;   
-    padding: 5px; 
-}
-.p.c.img{
-    clear: both;
-    float: left;
-    padding: 10px;
-}
-a{
-    padding:5px;
-}
-/*link não visitado*/
-a:link{
-    color: black;
-}
-/* Link visitado*/
-a:visited{
-    color: #2606f8 ;
-}
-/*Quando o mouse passa por cima*/
-a:hover{
-    color: rgb(185, 45, 45);
-    background-color: rgb(11, 53, 39);
-}
-/*Link ativo/selecionado*/
-a:active{
-    color: red;
+@media (min-width: 768px){
+    h1{
+        text-align: center;
+     }
+     h2{
+         padding:5px;
+     }
+     h3{
+         text-align: center;
+     }
+     .img0, .img, .img2, .img3, .img4, .img5, .img6{
+         font-size: 100%;
+         
+     }
+     .right{
+         text-align: right;
+         margin: 5px;
+     }
+     .img0{
+         width:500px;
+         margin: auto 250px;
+     }
+     .img{
+         margin: auto 100px;
+     }
+     .img2{
+         width: 300px;
+         float: right;
+     }
+     .img3{
+         width: 350px;
+         float: left;
+     }
+     .img4{
+         width: 400px;
+         float: right;
+     }
+     .img5{
+         width: 600px;
+         clear: both;
+         float: left;
+         padding: 10px;
+     }
+     .img6{
+         width: 800px;
+     }
+     p{
+         font-family: Cambria, Georgia, serif;   
+         padding: 5px; 
+         word-break: break-word;
+     }
+     .imgp{
+         clear: both;
+         float: left;
+         padding: 10px;
+     }
+     a{
+         padding:5px;
+     }
+     /*link não visitado*/
+     a:link{
+         color: black;
+     }
+     /* Link visitado*/
+     a:visited{
+         color: #2606f8 ;
+     }
+     /*Quando o mouse passa por cima*/
+     a:hover{
+         color: rgb(185, 45, 45);
+         background-color: rgb(11, 53, 39);
+     }
+     /*Link ativo/selecionado*/
+     a:active{
+         color: red;
+     }
 }
